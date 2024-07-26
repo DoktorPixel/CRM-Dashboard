@@ -11,7 +11,7 @@ export const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar_wrapper">
         <div className="logo_wrapper">
-          <Link to={ROUTES.HOME}>
+          <Link to={ROUTES.DASHBOARD}>
             <SidebarLogo />
             <span className="logo_text">
               Dashboard <span className="logo_mask">v.01</span>

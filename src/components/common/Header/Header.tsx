@@ -19,7 +19,7 @@ export const Header = () => {
     <header>
       <div className="logo_wrapper">
         <div className="logo_wrapper_nav">
-          <Link to={ROUTES.HOME}>
+          <Link to={ROUTES.DASHBOARD}>
             <SidebarLogo />
             <span className="logo_text">
               Dashboard <span className="logo_mask">v.01</span>

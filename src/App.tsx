@@ -11,7 +11,7 @@ import {
 
 import { ROUTES } from "./routes";
 
-export const App = () => {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -27,5 +27,5 @@ export const App = () => {
       </Routes>
     </Router>
   );
-};
+}
 
