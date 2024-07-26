@@ -1,7 +1,7 @@
 import "./CustomersPage.scss";
 import search from "@/assets/icons/search.svg";
 import { Table } from "@/components/ui/Table/Table";
-import { CUSTOMERS } from "@/constants/Customers";
+import { CUSTOMERS } from "@/constants";
 import { useEffect, useState } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
