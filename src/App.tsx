@@ -13,7 +13,7 @@ import { ROUTES } from "./routes";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route element={<Layout />}>
           <Route path={ROUTES.HOME} element={<DashboardPage />} />
